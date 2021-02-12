@@ -10,3 +10,6 @@ Each branch in this repository holds a different project.  The current branches 
 
 -Embedded Calculator
   This project is a calculator running on an STM32 NUCLEO board with an attached keypad and LCD module
+  
+ -Tiny Shell
+  This project is a simple command shell that allows a user to input Linux commands
