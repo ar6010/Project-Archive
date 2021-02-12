@@ -1,0 +1,32 @@
+--Andrew Ramirez
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity controller is
+
+	port(
+	
+		cond, rot: in std_logic_vector(3 downto 0);
+		op: in std_logic_vector(1 downto 0);
+		funct: in std_logic_vector(5 downto 0);
+		c, v, n, z: in std_logic;
+		pcsrc, pcwr, regdst, regwr, alusrcb, cpsrwr, memwr, regsrc: out std_logic;
+		exts: out std_logic_vector(1 downto 0);
+		alus: out std_logic_vector(2 downto 0);
+		rotate: out std_logic_vector(3 downto 0)
+	
+	);
+	
+end entity;
+
+architecture struct of controller is
+
+
+
+begin
+
+
+
+end architecture;
+	

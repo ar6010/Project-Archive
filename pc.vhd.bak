@@ -1,0 +1,26 @@
+--Andrew Ramirez
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity pc is 
+
+	port(
+	
+		pcwd: in std_logic_vector(31 downto 0);
+		ld,rst,clk: in std_logic;
+		q: out std_logic_vector(31 downto 0)
+	
+	);
+	
+end entity;
+
+architecture df of pc is 
+
+
+
+begin
+
+
+
+end architecture;
